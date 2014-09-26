@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A27D14719D5EA89005DA410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A27D14619D5EA89005DA410 /* Foundation.framework */; };
+		5A27D14919D5EA89005DA410 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A27D14819D5EA89005DA410 /* CoreGraphics.framework */; };
+		5A27D14B19D5EA89005DA410 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A27D14A19D5EA89005DA410 /* UIKit.framework */; };
+		5A27D15119D5EA89005DA410 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A27D14F19D5EA89005DA410 /* InfoPlist.strings */; };
+		5A27D15319D5EA89005DA410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A27D15219D5EA89005DA410 /* main.m */; };
+		5A27D15719D5EA89005DA410 /* KWSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A27D15619D5EA89005DA410 /* KWSAppDelegate.m */; };
+		5A27D15A19D5EA89005DA410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A27D15819D5EA89005DA410 /* Main.storyboard */; };
+		5A27D15D19D5EA89005DA410 /* KWSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A27D15C19D5EA89005DA410 /* KWSViewController.m */; };
+		5A27D15F19D5EA89005DA410 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A27D15E19D5EA89005DA410 /* Images.xcassets */; };
+		5A27D16619D5EA89005DA410 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A27D16519D5EA89005DA410 /* XCTest.framework */; };
+		5A27D16719D5EA89005DA410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A27D14619D5EA89005DA410 /* Foundation.framework */; };
+		5A27D16819D5EA89005DA410 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A27D14A19D5EA89005DA410 /* UIKit.framework */; };
+		5A27D17019D5EA89005DA410 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A27D16E19D5EA89005DA410 /* InfoPlist.strings */; };
+		5A27D17219D5EA89005DA410 /* KiwiSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A27D17119D5EA89005DA410 /* KiwiSampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A27D16919D5EA89005DA410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A27D13B19D5EA89005DA410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A27D14219D5EA89005DA410;
+			remoteInfo = KiwiSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A27D14319D5EA89005DA410 /* KiwiSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A27D14619D5EA89005DA410 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A27D14819D5EA89005DA410 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A27D14A19D5EA89005DA410 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A27D14E19D5EA89005DA410 /* KiwiSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiSample-Info.plist"; sourceTree = "<group>"; };
+		5A27D15019D5EA89005DA410 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A27D15219D5EA89005DA410 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A27D15419D5EA89005DA410 /* KiwiSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KiwiSample-Prefix.pch"; sourceTree = "<group>"; };
+		5A27D15519D5EA89005DA410 /* KWSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWSAppDelegate.h; sourceTree = "<group>"; };
+		5A27D15619D5EA89005DA410 /* KWSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWSAppDelegate.m; sourceTree = "<group>"; };
+		5A27D15919D5EA89005DA410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A27D15B19D5EA89005DA410 /* KWSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWSViewController.h; sourceTree = "<group>"; };
+		5A27D15C19D5EA89005DA410 /* KWSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWSViewController.m; sourceTree = "<group>"; };
+		5A27D15E19D5EA89005DA410 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A27D16419D5EA89005DA410 /* KiwiSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A27D16519D5EA89005DA410 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5A27D16D19D5EA89005DA410 /* KiwiSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiSampleTests-Info.plist"; sourceTree = "<group>"; };
+		5A27D16F19D5EA89005DA410 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A27D17119D5EA89005DA410 /* KiwiSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiSampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A27D14019D5EA89005DA410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A27D14919D5EA89005DA410 /* CoreGraphics.framework in Frameworks */,
+				5A27D14B19D5EA89005DA410 /* UIKit.framework in Frameworks */,
+				5A27D14719D5EA89005DA410 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A27D16119D5EA89005DA410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A27D16619D5EA89005DA410 /* XCTest.framework in Frameworks */,
+				5A27D16819D5EA89005DA410 /* UIKit.framework in Frameworks */,
+				5A27D16719D5EA89005DA410 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A27D13A19D5EA89005DA410 = {
+			isa = PBXGroup;
+			children = (
+				5A27D14C19D5EA89005DA410 /* KiwiSample */,
+				5A27D16B19D5EA89005DA410 /* KiwiSampleTests */,
+				5A27D14519D5EA89005DA410 /* Frameworks */,
+				5A27D14419D5EA89005DA410 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A27D14419D5EA89005DA410 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A27D14319D5EA89005DA410 /* KiwiSample.app */,
+				5A27D16419D5EA89005DA410 /* KiwiSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A27D14519D5EA89005DA410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A27D14619D5EA89005DA410 /* Foundation.framework */,
+				5A27D14819D5EA89005DA410 /* CoreGraphics.framework */,
+				5A27D14A19D5EA89005DA410 /* UIKit.framework */,
+				5A27D16519D5EA89005DA410 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A27D14C19D5EA89005DA410 /* KiwiSample */ = {
+			isa = PBXGroup;
+			children = (
+				5A27D15519D5EA89005DA410 /* KWSAppDelegate.h */,
+				5A27D15619D5EA89005DA410 /* KWSAppDelegate.m */,
+				5A27D15819D5EA89005DA410 /* Main.storyboard */,
+				5A27D15B19D5EA89005DA410 /* KWSViewController.h */,
+				5A27D15C19D5EA89005DA410 /* KWSViewController.m */,
+				5A27D15E19D5EA89005DA410 /* Images.xcassets */,
+				5A27D14D19D5EA89005DA410 /* Supporting Files */,
+			);
+			path = KiwiSample;
+			sourceTree = "<group>";
+		};
+		5A27D14D19D5EA89005DA410 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A27D14E19D5EA89005DA410 /* KiwiSample-Info.plist */,
+				5A27D14F19D5EA89005DA410 /* InfoPlist.strings */,
+				5A27D15219D5EA89005DA410 /* main.m */,
+				5A27D15419D5EA89005DA410 /* KiwiSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A27D16B19D5EA89005DA410 /* KiwiSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A27D17119D5EA89005DA410 /* KiwiSampleTests.m */,
+				5A27D16C19D5EA89005DA410 /* Supporting Files */,
+			);
+			path = KiwiSampleTests;
+			sourceTree = "<group>";
+		};
+		5A27D16C19D5EA89005DA410 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A27D16D19D5EA89005DA410 /* KiwiSampleTests-Info.plist */,
+				5A27D16E19D5EA89005DA410 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A27D14219D5EA89005DA410 /* KiwiSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A27D17519D5EA89005DA410 /* Build configuration list for PBXNativeTarget "KiwiSample" */;
+			buildPhases = (
+				5A27D13F19D5EA89005DA410 /* Sources */,
+				5A27D14019D5EA89005DA410 /* Frameworks */,
+				5A27D14119D5EA89005DA410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiwiSample;
+			productName = KiwiSample;
+			productReference = 5A27D14319D5EA89005DA410 /* KiwiSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A27D16319D5EA89005DA410 /* KiwiSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A27D17819D5EA89005DA410 /* Build configuration list for PBXNativeTarget "KiwiSampleTests" */;
+			buildPhases = (
+				5A27D16019D5EA89005DA410 /* Sources */,
+				5A27D16119D5EA89005DA410 /* Frameworks */,
+				5A27D16219D5EA89005DA410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A27D16A19D5EA89005DA410 /* PBXTargetDependency */,
+			);
+			name = KiwiSampleTests;
+			productName = KiwiSampleTests;
+			productReference = 5A27D16419D5EA89005DA410 /* KiwiSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A27D13B19D5EA89005DA410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KWS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "どんぐり";
+				TargetAttributes = {
+					5A27D16319D5EA89005DA410 = {
+						TestTargetID = 5A27D14219D5EA89005DA410;
+					};
+				};
+			};
+			buildConfigurationList = 5A27D13E19D5EA89005DA410 /* Build configuration list for PBXProject "KiwiSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A27D13A19D5EA89005DA410;
+			productRefGroup = 5A27D14419D5EA89005DA410 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A27D14219D5EA89005DA410 /* KiwiSample */,
+				5A27D16319D5EA89005DA410 /* KiwiSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A27D14119D5EA89005DA410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A27D15F19D5EA89005DA410 /* Images.xcassets in Resources */,
+				5A27D15119D5EA89005DA410 /* InfoPlist.strings in Resources */,
+				5A27D15A19D5EA89005DA410 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A27D16219D5EA89005DA410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A27D17019D5EA89005DA410 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A27D13F19D5EA89005DA410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A27D15D19D5EA89005DA410 /* KWSViewController.m in Sources */,
+				5A27D15719D5EA89005DA410 /* KWSAppDelegate.m in Sources */,
+				5A27D15319D5EA89005DA410 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A27D16019D5EA89005DA410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A27D17219D5EA89005DA410 /* KiwiSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A27D16A19D5EA89005DA410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A27D14219D5EA89005DA410 /* KiwiSample */;
+			targetProxy = 5A27D16919D5EA89005DA410 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A27D14F19D5EA89005DA410 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A27D15019D5EA89005DA410 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A27D15819D5EA89005DA410 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A27D15919D5EA89005DA410 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A27D16E19D5EA89005DA410 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A27D16F19D5EA89005DA410 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A27D17319D5EA89005DA410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A27D17419D5EA89005DA410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A27D17619D5EA89005DA410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiSample/KiwiSample-Prefix.pch";
+				INFOPLIST_FILE = "KiwiSample/KiwiSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A27D17719D5EA89005DA410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiSample/KiwiSample-Prefix.pch";
+				INFOPLIST_FILE = "KiwiSample/KiwiSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5A27D17919D5EA89005DA410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiSample.app/KiwiSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiSample/KiwiSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KiwiSampleTests/KiwiSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5A27D17A19D5EA89005DA410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiSample.app/KiwiSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiSample/KiwiSample-Prefix.pch";
+				INFOPLIST_FILE = "KiwiSampleTests/KiwiSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A27D13E19D5EA89005DA410 /* Build configuration list for PBXProject "KiwiSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A27D17319D5EA89005DA410 /* Debug */,
+				5A27D17419D5EA89005DA410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A27D17519D5EA89005DA410 /* Build configuration list for PBXNativeTarget "KiwiSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A27D17619D5EA89005DA410 /* Debug */,
+				5A27D17719D5EA89005DA410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A27D17819D5EA89005DA410 /* Build configuration list for PBXNativeTarget "KiwiSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A27D17919D5EA89005DA410 /* Debug */,
+				5A27D17A19D5EA89005DA410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A27D13B19D5EA89005DA410 /* Project object */;
+}
